@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>> Game Kuis Matematika</title>
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script src="scriptt.js"></script>
+    <div class="container">
+     <header>
+        <h1>Kuis Matematika</h1>
+        <p>Selesaikan test dalam waktu.</p>
+    </header>
+    <div id="timer-container">
+        <div id="time-circle">
+            <span id="time">30</span>
+          </div>
+    </div>
+    <div id="quiz-container">
+        <div id="question-container">
+            <p id="question">5 + 3</p>
+        </div>
+    <input type="number" id="input" placeholder="Your Answer">
+    <button id="submit-button" onclick="checkAnswer()">Submit Answer</button> 
+    <p id="result"></p>  
+    </div>
+    <div id="score-container">
+        <p>Score: <span id="score">0</span></p>
+    </div>
+    <div>
+        <audio id="background-music" controls loop>
+    <source src="WhatsApp Audio 2023-09-24 at 22.54.31.mp3" type="audio/mpeg">
+    
+</div>
+    
+    <button id="start-button" onclick="startGame()">Start Game</button>    
+</div>
+
+</body>
+</html>

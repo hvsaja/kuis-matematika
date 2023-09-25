@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("https://assets.pikiran-rakyat.com/crop/0x0:0x0/x/photo/2022/01/24/157341794.jpg");
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+}
+header h1 {
+    font-size: 28px;
+    margin: 0;
+}
+header {
+    background-color: #6e23d1;
+    color: #fff;
+    border-radius: 10px;
+    padding: 10px;
+}
+header p {
+    font-size: 16px;
+    margin: 0;
+}
+#quiz-container {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+#question-container {
+    font-size: 36px;
+    margin: 20px 0;
+}
+#input {
+    font-size: 24px;
+    padding: 2px;
+    width: 100%;
+}
+#submit-button {
+    font-size: 18px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+#result {
+    font-size: 24px;
+    margin-top: 10px;
+}
+#score-container {
+    margin-top: 20px;
+    font-size: 18px;
+}
+#score {
+    font-weight: bold;
+}
+#time {
+    font-weight: bold;
+}
+#start-button {
+    font-size: 18px;
+    background-color: #27ae60;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+#timer-container {
+    position: relative;
+    text-align: center;
+    margin-top: 20px;
+}
+#time-circle {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #FFB018;
+    color: #fff;
+    font-size: 24px;
+    line-height: 60px;
+    margin: 0 auto;
+}
+#time {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#audio::-webkit-media-controls-panel,audio::-webkit-media-controls-enclosure {
+  display: none !important;
+}
